@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.page-item {
+  display: flex;
+  justify-content: space-between;
+  color: #323874;
+  margin-left: 12px;
+  background: #e2e2ea;
+}
+.page-item:hover,
+.page-item:focus,
+.prev-btn:hover,
+.prev-btn:focus {
+  color: #e2e2ea;
+  background-color: #323874;
+  transform: scale(1.1);
+}
+
+.page-btn {
+  width: 10px !important;
+  height: 10px !important;
+}

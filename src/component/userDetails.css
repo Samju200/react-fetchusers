@@ -1,0 +1,69 @@
+.other-details {
+  margin-left: 40px;
+}
+
+.results-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow-icon {
+  height: 35px !important;
+  width: 35px !important;
+  color: #30bbb5;
+}
+
+.more-user-details {
+  margin-top: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.user-image {
+  height: 150px !important;
+  width: 150px !important;
+  border: 5px solid #30bbb5;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.user-names {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.user-names > span {
+  font-weight: 300;
+}
+
+.user-address {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.user-email {
+  background-color: #ddd;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+
+.user-registered {
+  background-color: #e898c8;
+  font-weight: 700;
+}
+
+.user-email,
+.user-registered {
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 10px;
+  margin: 15px 0;
+}
+
+.user-phone,
+.user-cell {
+  font-size: 10px;
+  margin: 20px 0;
+}
