@@ -18,7 +18,7 @@ const Users = ({
   handleClick,
 }) => {
   return (
-    <div className="user-profile" onClick={handleClick}>
+    <div className="user-profile">
       <div className="user-details">
         <div className="user-pictures">
           <Avatar src={image} className="user-picture" />
@@ -38,7 +38,7 @@ const Users = ({
             <p>
               <FiPhoneCall /> {phone}
             </p>
-            <div className="user-btn">
+            <div className="user-btn" onClick={handleClick}>
               <ArrowForwardIcon />
             </div>
           </div>

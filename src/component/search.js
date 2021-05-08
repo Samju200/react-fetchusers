@@ -15,8 +15,8 @@ const Search = ({
           handleSubmitSearch(e, searchInput);
         }}
       >
-        <div className="form-control">
-          <FaSearch className="form-control__searchIcon" />
+        <div className="form">
+          <FaSearch className="form-searchIcon" />
           <input
             type="text"
             placeholder="Find a user"

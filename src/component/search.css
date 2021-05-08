@@ -1,12 +1,12 @@
-.form-control {
+.form {
   padding: 10px 20px;
   border-radius: 15px;
-  background-color: #3C3F54;
+  background-color: #3c3f54;
   display: flex;
   align-items: center;
 }
 
-.form-control input[type='text'] {
+.form input[type='text'] {
   flex: 1;
   height: 100%;
   width: 100%;
@@ -20,7 +20,7 @@
   font-weight: 500;
 }
 
-.form-control__searchIcon {
+.form-searchIcon {
   background-color: inherit;
   color: white;
   /* height: 23px !important; */

@@ -1,4 +1,4 @@
-.form-control-2 {
+.form-2 {
   padding: 7px 20px;
   border-radius: 25px;
   background-color: #ddd;
@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 
-.form-control-2 input[type='text'] {
+.form-2 input[type='text'] {
   flex: 1;
   height: 100%;
   width: 100%;
@@ -21,7 +21,7 @@
   font-weight: 500;
 }
 
-.form-control-2__searchIcon {
+.form-2-searchIcon {
   background-color: inherit;
   color: #58595e;
   height: 15px !important;
@@ -39,7 +39,7 @@ select {
   border-radius: 20px;
   padding: 0 20px;
 }
-.country-flag{
-    width: 10px;
-    height: 10px!important;
+.country-flag {
+  width: 10px;
+  height: 10px !important;
 }
