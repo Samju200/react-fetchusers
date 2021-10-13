@@ -82,3 +82,11 @@
   justify-items: center;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .user-info {
+    margin-left: 20px;
+  }
+  .user-profile {
+    margin-left: -20px;
+  }
+}
